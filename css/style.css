@@ -1,0 +1,484 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #191919;
+}
+
+.background {
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.milkyway-background {
+    background-image: url("../images/wallpaper.jpg");
+}
+
+.mountain-background {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(61, 16, 255, 0.3)), url("../images/animeart.jpg");
+}
+
+.special-blue {
+    color: #3D74FF;
+}
+
+.title-card {
+    text-align: center;
+    background-color: #111111;
+    padding: 18px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cursive-text {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.down-arrow {
+    margin: 0 auto;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.down-arrow-icon {
+    width: 50px;
+}
+
+.title-header {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.title-header-left {
+    text-align: left;
+}
+
+.title-header-center {
+    text-align: center;
+}
+
+
+.divider {
+    display: block;
+    width: 250px;
+    height: 2px;
+    background-color: #5283FF;
+}
+
+.divider-left {
+    margin: 30px 0px;
+}
+
+.divider-center {
+    margin: 30px auto;
+}
+
+.sections {
+    padding: 50px 80px;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+}
+
+.about-me-section {
+    background-color: #333333;
+}
+
+.about-me-code-section {
+    background-color: #4C4C4C;
+}
+
+.skills-section {
+    background-color: #333333;
+}
+
+.work-section {
+    background-color: #4C4C4C;
+}
+
+.education-section {
+    background-color: #666666;
+}
+
+.projects-section {
+    background-color: #7F7F7F;
+}
+
+.honors-section {
+    background-color: #999999;
+}
+
+.contact-me-section {
+    background-color: #B2B2B2;
+}
+
+.OSX-window {
+    margin: auto;
+    display: table;
+    border-radius: 6px;
+    padding: 50px 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-me-section {
+        padding: 50px 40px;
+    }
+
+    .about-me-code-section {
+        padding: 50px 0px;
+    }
+
+    .OSX-window {
+        padding: 50px 20px;
+    }
+
+    .work-section {
+        padding: 50px 30px;
+    }
+
+    .education-section {
+        padding: 50px 20px;
+    }
+
+    .projects-section {
+        padding: 50px 20px;
+    }
+
+    .honors-section {
+        padding: 50px 20px;
+    }
+
+    .contact-me-section {
+        padding: 50px 20px;
+    }
+
+    .about-me-code {
+        font-size: 12px;
+    }
+}
+
+.subsections {
+    display: table;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.about-me-subsection {
+    max-width: 1000px;
+}
+
+.skills-subsection {
+    max-width: 600px;
+}
+
+.about-me-text {
+    float: left;
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 200%;
+}
+
+.about-me-picture {
+    float: right;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.emphasis {
+    font-weight: 700;
+}
+
+.OSX-titlebar {
+    background: #D5D5D5;
+    width: 100%;
+    height: 23px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.OSX-buttons {
+    padding-left: 8px;
+    padding-top: 6px;
+    float: left;
+    line-height: 0px;
+}
+
+.OSX-close {
+    background: #FF5C5C;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #E33E41;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.OSX-minimize {
+    background: #FFBD4C;
+    margin-left: 4px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #E09E3E;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.OSX-zoom {
+    background: #00CA56;
+    margin-left: 4px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #14AE46;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.about-me-code {
+    padding: 15px;
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    font-family: 'Inconsolata', monospace;
+    line-height: 150%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.JSON-text-lvl-1 {
+    color: #D15CFF;
+}
+
+.JSON-text-lvl-2 {
+    color: #64BFF2;
+}
+
+.JSON-text-lvl-2 a {
+    color: #64BFF2;
+}
+
+.JSON-text-lvl-3 {
+    color: #FFB85C;
+}
+
+.JSON-digit {
+    color: #F2646F;
+}
+
+.JSON-punctuation {
+    color: #C4C4C4;
+}
+
+.skills-icon {
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.languages-icon {
+    width: 40px;
+}
+
+.tools-icon {
+    width: 35px;
+}
+
+.skills-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.skill-item {
+    background: #B5B8CF;
+    border-radius: 4px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    box-shadow: 1px 1px 1px #003BD1;
+    margin: 5px 3px;
+    color: #444444;
+}
+
+.skill-item div {
+    padding: 4px 10px;
+}
+
+.company-logo {
+    width: 100px;
+    border-radius: 6px;
+    float: left;
+    margin: 10px;
+}
+
+.text-body {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.company-name {
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.company-location {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.position-information {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.position-bullets {
+    list-style-type: square;
+    line-height: 175%;
+}
+
+.courses-information {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.restrict-width {
+    max-width: 375px;
+}
+
+.resume-icon {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.resume-download {
+    width: 150px;
+    padding: 15px 20px;
+    background-color: #3D74FF;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    box-shadow: 1px 2px 2px #111111;
+}
+
+.resume-download:hover {
+    background-color: #336DFF;
+}
+
+.resume-download-icon {
+    width: 22px;
+    vertical-align: middle;
+}
+
+.contact-icons {
+    text-align: center;
+}
+
+.contact-icon {
+    display: inline-block;
+    width: 50px;
+    margin: 10px;
+}
+
+.blinking-cursor {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 20px;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-moz-keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-webkit-keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-ms-keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
+
+@-o-keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #FFFFFF;
+    }
+}
